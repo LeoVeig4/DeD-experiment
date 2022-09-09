@@ -1,0 +1,206 @@
+
+@font-face {
+    font-family: "Myfont-Title";
+    src: url("../fonts/AcidDreamer.ttf");
+    }
+
+@font-face {
+    font-family: "Myfont-normal";
+    src: url("../fonts/BlackwoodCastle.ttf");
+    }
+
+* {
+    margin:0;
+    padding:0;
+
+}
+
+body {
+
+    font-size: 20px;
+    font-family: Myfont-normal, Arial;
+    color: rgb(3, 0, 0);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url("./Principal/images/Coblestone.jpg");
+    background-repeat: repeat;
+
+    
+    padding:0px;
+    margin:0px;
+}
+
+footer{
+    background-color: rgba(109, 25, 25, .75);
+    position: fixed;
+    
+    bottom:0;
+    left:0;
+    right:0;
+    height: 30px;
+    width: 100vw;
+
+    padding:0px;
+    margin:0px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#cabeca {
+    font-family: Myfont-Title;
+
+    background-color: rgba(109, 25, 25, .75);
+    color: white;
+    padding: 0px;
+    margin: 0px;
+
+    min-height: 70px;
+    width: 100vw;
+    height: 5vh;
+    
+}
+
+.direita_cab{ 
+    position: absolute;
+    margin-right: 50px;
+    top: 0px;
+    right:0px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.esquerda_cab{
+    position: absolute;
+    margin-left: 50px;
+    top: 0px;
+    left: 0px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+img{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    position: relative;
+    width: 100px;
+    left:50%;
+    top: -77px;
+    padding: 0px;
+    
+    transform: rotate(105deg);
+}
+
+span a:link{
+    color:white;
+    text-decoration: none;
+}
+
+span a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1070px){
+/*menos de 1070*/
+    
+    
+    .drop{
+        display:block;
+        position: absolute;
+
+        margin-top: 7px;
+        margin-right: 50px;
+        top: 0px;
+        right:0px;
+        
+        background-image: url("/Principal/images/drop1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        border-radius: 10%;
+        width: 50px;
+        height: 55px;
+
+        
+    }
+
+    .drop:hover{
+        display:block;
+        position: absolute;
+
+        margin-top: 7px;
+        margin-right: 50px;
+        top: 0px;
+        right:0px;
+        font-size: 30px;
+
+        background-image: url("./Principal/images/drop2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        border-radius: 10%;
+        width: 50px;
+        height: 55px;
+    }
+
+    .drop:hover .direita_cab{
+        display: block;
+        left:-210px;
+        top: 55px;
+    }
+    .direita_cab a:hover {
+        background-color:rgb(109, 25, 25);
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .direita_cab{
+        font-size: 25px;
+        display: none;
+        position: absolute;
+        background-color:rgb(71, 10, 10);
+        min-width: 260px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+
+    }
+    .direita_cab a {
+
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+
+    .esquerda_cab a:hover{
+        text-decoration: none;
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 1070px){
+    /*mais de 1070*/
+    
+    span a:hover{
+        text-decoration: none;
+        font-size: 35px;
+    }
+}
+
+span a:hover{
+    color:rgb(246, 250, 4);
+}
+
+a:hover{
+    color:rgb(246, 250, 4);
+}
+
+a{
+    text-decoration: none;
+}
+

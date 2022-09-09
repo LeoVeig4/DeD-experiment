@@ -1,0 +1,48 @@
+section{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 99vw;
+
+    padding-bottom:1vh;
+
+    
+}
+
+section div{
+
+    min-width: 500px;
+    min-height: 500px;
+    background-color: rgba(146, 31, 31, .95);
+
+    border-radius: 5%;
+
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid red;
+    
+    
+}
+li{
+    list-style-type: none;
+}
+li a{
+
+    font-size: 40px;
+    text-decoration: none;
+    line-height: 70px;
+
+    margin-left: 20px;
+
+    color: rgba(255, 255, 255, 0.9);
+    
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    
+}
