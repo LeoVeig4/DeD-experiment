@@ -183,6 +183,28 @@ span a:visited{
         font-size: 35px;
     }
 }
+
+@media screen and (max-width: 580px){
+    /*menos de 580*/
+    .logo{
+        position: relative;
+        width: 30px;
+        left:50%;
+        top: 0px;
+        padding: 0px;
+        
+        transform: rotate(105deg);
+    }
+
+    .esquerda_cab{
+        font-size: 20px;
+    }
+    .esquerda_cab a:hover{
+        text-decoration: none;
+        font-size: 25px;
+    }
+        
+    }
 @media screen and (min-width: 1070px){
     /*mais de 1070*/
     
